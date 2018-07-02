@@ -2,9 +2,12 @@
  * Created by maullon on 7/2/2018.
  */
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 
 // main app
-import App from '.containers/App';
+import { App } from './App';
 
-ReactDom.render(<App/>, document.getElementById('app'));
+ReactDOM.render(
+  <App/>,
+  document.getElementById('app')
+);
